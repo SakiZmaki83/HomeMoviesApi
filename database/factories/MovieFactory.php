@@ -22,6 +22,6 @@ $factory->define(App\Movie::class, function (Faker $faker) {
         'image_url' => $faker->imageUrl(),
         'duration' => $faker->numberBetween(60, 200),
         'release_date' => $faker->date(),
-        'genres' => $values->random(5)
+        'genres' => $values->random(1)
     ];
 });
